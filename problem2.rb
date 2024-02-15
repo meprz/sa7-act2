@@ -5,4 +5,4 @@ numbers.each do |number|
 end
 
 triple = Proc.new { |x| x * 3 }
-puts numbers.map &triple
+print numbers.map(&triple), "\n"
